@@ -389,19 +389,7 @@ function magic_tm_owl_carousel(){
 		nav: true,
 		items:1,
 	});
-
-	var carousel_json = jQuery('.owl-demo');
-
-		carousel_json.owlCarousel({
-
-		autoPlay: 2000, //Set AutoPlay to 2 seconds
-		items : 4,
-		itemsDesktop : [1199,3],
-		itemsDesktopSmall : [979,3]
-
-		});
-
-
+	
 }
 
 

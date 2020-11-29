@@ -24,6 +24,10 @@
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
 <!-- /STYLES -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+<!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="css/tiny.css" />
+
 
 </head>
 
@@ -153,13 +157,26 @@
 					</div>
 
 					<div class="magic_tm_slider_wrap">
-						<div id="owl-demo">
 
-							<div class="item"><img src="img/hero/1.jpg" alt="Owl Image"></div>
-							<div class="item"><img src="img/hero/1.jpg" alt="Owl Image"></div>
-							<div class="item"><img src="img/hero/1.jpg" alt="Owl Image"></div>
 
+						<div class="tartist-tiny-slider-wrap">
+							<div class="tartist-tiny-slider" data-chunksize="6">
+								<div class="tartist-tiny-slider__item">Item 1</div>
+								<div class="tartist-tiny-slider__item">Item 2</div>
+								<div class="tartist-tiny-slider__item">Item 3</div>
+								<div class="tartist-tiny-slider__item">Item 4</div>
+								<div class="tartist-tiny-slider__item">Item 5</div>
+								<div class="tartist-tiny-slider__item">Item 6</div>
+								<div class="tartist-tiny-slider__item">Item 7</div>
+								<div class="tartist-tiny-slider__item">Item 8</div>
+								<div class="tartist-tiny-slider__item">Item 9</div>
+								<div class="tartist-tiny-slider__item">Item 10</div>
+								<div class="tartist-tiny-slider__item">Item 11</div>
+								<div class="tartist-tiny-slider__item">Item 12</div>
+							</div>
 						</div>
+
+
 
 					</div>
 				</div>
@@ -532,7 +549,9 @@
 <!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
 <script src="js/plugins.js"></script>
 <script src="js/init.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
+<script src="js/tiny.js"></script>
 
 
 <!-- /SCRIPTS -->
